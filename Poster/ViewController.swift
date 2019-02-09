@@ -25,17 +25,6 @@ class ViewController: UIViewController {
         
         present(alert, animated: true, completion: nil)
     }
-    
-    @IBAction func challenge() {
-        // add alert
-        
-        let alert = UIAlertController(title: "hello", message: "Do oooo Jeon !!!", preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "ok", style: .default, handler: nil)
-        
-        alert.addAction(okAction)
-        
-        present(alert, animated: true, completion: nil)
-    }
 
 }
 
